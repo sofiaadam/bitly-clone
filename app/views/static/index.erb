@@ -1,2 +1,20 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+
+
+
+<h1>I'm lost and confuse but dats alright. Git rekt!</h1>
+
+<form action="/urls" method="post">
+    Enter URL: 
+    <input type="text" name="long_url">
+    <input type="submit" value="Submit">
+ </form>
+
+ <p><%= @error %></p>
+
+ <h3>This is your naughty list</h3>
+
+<% @urls.each do |x| %>
+<p><%= x.short_url%></p>
+ <p><%= x.long_url %></p>
+ <p><%= x.click_count %></p>
+ <% end %>

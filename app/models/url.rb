@@ -20,6 +20,14 @@ class Url < ActiveRecord::Base
 		unless self.long_url.starts_with?("http://", "https://")
 			errors.add(:long_url, "invalid format")
 		end
+
+		# Url.all.each do |x|
+        # if !self.long_url.nil? && self.long_url.downcase == x.long_url.downcase
+        #   errors.add(:long_url, "The URL is already on da list")
+		# 	# errors.add(:long_url, "#{self.short_url}")
+		#   end
+		# end
 	end
+	
 end
 

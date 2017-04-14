@@ -1,0 +1,119 @@
+body {
+    background: url(fuji.jpg) top center no-repeat;
+	background-size: cover;
+}
+
+div {
+	padding-top: 100px;
+ 	width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 72px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 26px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+form {
+    width: 800px;
+    text-align: center;
+}
+
+input {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 26px;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+p {
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 26px;
+	text-align: center;
+}
+
+#intro p {
+	padding-top: 50px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 26px;
+	text-align: center;
+}
+
+table	{
+	margin-top: 30px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hover-table tr:hover td, .hover-table tr:hover {
+  background-color: #7DB2B2;
+}
+
+th {
+	color: black;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 26px;
+}
+
+tr {
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 26px;
+}
+
+a {
+	color: steelblue; 
+}
+
+.center-content{
+    margin: 0 auto;
+}
+
+.paste-url	{
+	/*border: 1px solid white;*/
+	background-color: rgba(255, 255, 255, 0.2);
+	/*height: 300px;*/
+}
+
+/*.paste-url	p2 {
+
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 32px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}*/

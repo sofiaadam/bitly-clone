@@ -1,20 +1,53 @@
-
-
-
-<h1>I'm lost and confuse but dats alright. Git rekt!</h1>
-
-<form action="/urls" method="post">
+<body>
+    
+    <div id="intro">
+        <h1>YouAreL</h1>
+        <p>We make youRL short!</p>
+    </div>
+<div class="shorten-url">
+    <form action="/urls" method="post">
     Enter URL: 
     <input type="text" name="long_url">
-    <input type="submit" value="Submit">
- </form>
+    <input type="submit" value="Shorten">
+    </div>
+</form>
 
- <p><%= @error %></p>
+<div id='flash'>
+    <p></p>
+    </div>
 
- <h3>This is your naughty list</h3>
+ <div class="center-content">
+     <div class="paste-url">
+         <p2> Throw your stuff here!</p2>
+     </div>
+     <div class="paste-url">
+         <p2> Burrrn! </p2>
+     </div>
+ </div>
 
-<% @urls.each do |x| %>
-<p><%= x.short_url%></p>
- <p><%= x.long_url %></p>
- <p><%= x.click_count %></p>
- <% end %>
+   
+<p>This is your naughty list</p>
+     
+  <table class="hover-table">
+      <thead>
+          <tr>
+              <th>URLs</th>
+              <th>Counter</th>
+          </tr>
+      </thead>
+        <% @urls.each do |x| %>
+    <tr>
+        <td>
+        <p><%= x.long_url %></p> 
+            <p id="short-height"><a target="_blank" href="http://localhost:9393/<%= x.short_url%>"><%= x.short_url%></a></p> 
+        </td>
+        <td><%= x.click_count %></td>
+        </tr>
+        <% end %>
+    </table>
+   
+ <body>
+
+
+
+
